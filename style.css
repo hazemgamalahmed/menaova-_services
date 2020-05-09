@@ -5,7 +5,8 @@ body{
 }
 /* start nav bar main */
 .upper-bar{
-    background-color: rgba(61, 192, 83, 0.808);
+    /* background-color: rgba(61, 192, 83, 0.808); */
+    background-color: orange;
     color:#FFF;
     padding:10px;
 }
@@ -115,7 +116,7 @@ body{
 footer{
     margin-top:70px;
     height:300px;
-    background-color: rgba(61, 192, 83, 0.808);
+    background-color: orange;
 }
 /* end footer */
 .any-data{
@@ -158,10 +159,20 @@ footer{
     color:#000;
     font-weight: bold;
     text-transform:capitalize;
-    border:2px solid rgba(61, 192, 83, 0.808);
+    border:2px solid orange;
     transition: all 1s;
 }
 .my-btn:hover{
-    background-color: rgba(61, 192, 83, 0.808);
+    background-color: orange;
     color:#FFF;
+}
+hr{
+    color:#000;
+    height:3px;
+    font-weight:bold;
+}
+.rights{
+    text-align:center;
+    color:#FFF;
+
 }
