@@ -13,6 +13,25 @@ body{
 .upper-bar span{
     margin-left:10px;
 }
+
+.any-data-up{
+    color:#FFF;
+    text-transform:capitalize;
+}
+.any-data-up span{
+    list-style: none;
+    line-height:1.7;
+}
+.any-data-up span a{
+    text-decoration: none;
+    color:#FFF;
+}
+.any-data-up span a:hover{
+    text-decoration: none;
+    color:#FFF;
+    font-size: 102%;
+}
+
 /* end nav bar main */
 /* start navbar brand */
 .new-serve{
