@@ -10,6 +10,7 @@ setInterval(() => {
 
     
 landingPage.style.backgroundImage = 'url("assets/'+ myImages[randomeNumber]+'")';
+landingPage.style.transition = 'all 1s';
 }, 3000);
 // end design the image background
 var myNavLink = document.querySelectorAll(".nav-item");
